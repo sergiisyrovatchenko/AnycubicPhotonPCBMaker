@@ -1,0 +1,18 @@
+<Project>
+
+  <!-- Authorship and version written into every assembly built from this repository (file properties of the exe and dlls) -->
+  <PropertyGroup>
+    <Product>Anycubic Photon PCB Maker</Product>
+    <Version>1.0.0</Version>
+    <Description>Transforms PCB Gerber files into exposure masks for Anycubic Photon resin printers</Description>
+    <Authors>Sergii Syrovatchenko</Authors>
+    <Company>Sergii Syrovatchenko</Company>
+    <Copyright>Sergii Syrovatchenko</Copyright>
+    <Title>Anycubic Photon PCB Maker</Title>
+    <!-- "File description" in the file properties; AnycubicPhotonPCB.Core sets its own -->
+    <AssemblyTitle>Anycubic Photon PCB Maker</AssemblyTitle>
+    <PackageProjectUrl>https://github.com/sergiisyrovatchenko/AnycubicPhotonPCBMaker</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sergiisyrovatchenko/AnycubicPhotonPCBMaker</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

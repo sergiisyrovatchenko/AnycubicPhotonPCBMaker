@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>AnycubicPhotonPCB.Core</RootNamespace>
+    <AssemblyTitle>Anycubic Photon PCB Maker Core</AssemblyTitle>
     <!-- Built straight into <repo>\Bin next to the application -->
     <OutputPath>$(MSBuildThisFileDirectory)..\Bin\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>

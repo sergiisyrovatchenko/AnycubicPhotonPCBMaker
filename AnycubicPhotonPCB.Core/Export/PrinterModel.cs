@@ -92,7 +92,7 @@ public sealed record PrinterModel
         },
         new()
         {
-            Name = "AnyCubic Photon Mono SQ (.pwsq)", FileExtension = "pmsq", FileVersion = (515, 5), XyRes = 0.050,
+            Name = "AnyCubic Photon Mono SQ (.pmsq)", FileExtension = "pmsq", FileVersion = (515, 5), XyRes = 0.050,
             ResolutionX = 2400, ResolutionY = 2560, Rotate180 = false,
         },
         new()
