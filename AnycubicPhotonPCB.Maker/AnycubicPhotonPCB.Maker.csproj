@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>AnycubicPhotonPCB.Maker</AssemblyName>
+    <Product>Anycubic Photon PCB</Product>
+    <Version>1.0.0</Version>
+    <!-- 64-bit Windows only: SkiaSharp's native library is copied next to the exe instead of runtimes\<rid> for every platform -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <!-- The application is built straight into <repo>\Bin (no Debug\net8.0-windows sub folders) -->
+    <OutputPath>$(MSBuildThisFileDirectory)..\Bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <!-- No satellite resource folders (cs, de, ja, …) from dependencies -->
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="MainForm.cs" SubType="Form" />
+    <Compile Update="MainForm.Designer.cs" DependentUpon="MainForm.cs" />
+    <Compile Update="ExportView.cs" SubType="UserControl" />
+    <Compile Update="ExportView.Designer.cs" DependentUpon="ExportView.cs" />
+    <Compile Update="LayerCard.cs" SubType="UserControl" />
+    <Compile Update="LayerCard.Designer.cs" DependentUpon="LayerCard.cs" />
+    <Compile Update="CardGrid.cs" SubType="Code" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AnycubicPhotonPCB.Core\AnycubicPhotonPCB.Core.csproj" />
+  </ItemGroup>
+
+</Project>

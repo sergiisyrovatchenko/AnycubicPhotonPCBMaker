@@ -1,0 +1,25 @@
+{
+    "models_processed_info": {
+        "models": [
+            {
+                "auto_support": 0,
+                "hollow": 0,
+                "makeronline_sourceid": -1,
+                "manual_support": 0,
+                "name": "Receiver-F_Cu.stl",
+                "punch": 0,
+                "source_from": 0
+            }
+        ],
+        "scene_models_from": 0,
+        "slice_paras_process": 0,
+        "software_version": "AnycubicPhotonWorkshop_V4.1.8_20260709084659"
+    },
+    "rerf_function": {
+        "enable": false,
+        "model_name": "",
+        "model_type": 1,
+        "partition_exposure_array": [],
+        "partition_num": 0
+    }
+}

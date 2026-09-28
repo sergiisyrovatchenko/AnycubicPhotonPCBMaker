@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AnycubicPhotonPCB.Core</RootNamespace>
+    <!-- Built straight into <repo>\Bin next to the application -->
+    <OutputPath>$(MSBuildThisFileDirectory)..\Bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="4.152.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Machine / resin settings exported by Photon Workshop 4.1 for the Photon Mono 4 Ultra -->
+    <EmbeddedResource Include="Resources\Pm4u\*" LogicalName="AnycubicPhotonPCB.Core.Resources.Pm4u.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

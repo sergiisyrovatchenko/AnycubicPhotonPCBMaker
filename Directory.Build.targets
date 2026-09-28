@@ -1,0 +1,11 @@
+<Project>
+
+  <!-- SkiaSharp ships libSkiaSharp.pdb (~100 MB per platform); it is only useful for debugging Skia itself. -->
+  <Target Name="ExcludeNativeSymbols" AfterTargets="ResolvePackageAssets">
+    <ItemGroup>
+      <NativeCopyLocalItems Remove="@(NativeCopyLocalItems)" Condition="'%(Extension)' == '.pdb'" />
+      <RuntimeTargetsCopyLocalItems Remove="@(RuntimeTargetsCopyLocalItems)" Condition="'%(Extension)' == '.pdb'" />
+    </ItemGroup>
+  </Target>
+
+</Project>
