@@ -6,6 +6,8 @@ photoresist-coated PCB instead of curing resin.
 Windows desktop app (WinForms, .NET 8), based on [photonic-etcher](https://github.com/Andrew-Dickinson/photonic-etcher)
 with support for **Photon Mono 4 Ultra** and **Photon Mono 4**.
 
+![Anycubic Photon PCB Maker](https://i.postimg.cc/rz6cgRzF/Untitled.png)
+
 ## Features
 
 - **Any Gerber set** — files, a folder or a ZIP; layers recognized automatically for KiCad, Altium, Eagle, OrCAD,
