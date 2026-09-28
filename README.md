@@ -23,6 +23,10 @@ with support for **Photon Mono 4 Ultra** and **Photon Mono 4**.
 - **90° rotation** — when the board only fits the other way round; the app tells you when it does.
 - **Several copies** — up to a 3 × 3 matrix of boards on one exposure, with an adjustable gap.
 
+## Latest Version
+
+You can download .zip file with the latest build of the master branch from [Releases](https://github.com/sergiisyrovatchenko/AnycubicPhotonPCBMaker/releases)
+
 ## Supported printers
 
 | Printer | File |
