@@ -10,18 +10,18 @@ with support for **Photon Mono 4 Ultra** and **Photon Mono 4**.
 
 ## Features
 
-- **Any Gerber set** — files, a folder or a ZIP; layers recognized automatically for KiCad, Altium, Eagle, OrCAD,
+- **Any Gerber set** - files, a folder or a ZIP; layers recognized automatically for KiCad, Altium, Eagle, OrCAD,
   gEDA, DipTrace and EasyEDA, plus the Gerber X2 `.FileFunction` attribute.
-- **Board and layer previews** — realistic top / bottom render of the board and a preview of every layer, showing
+- **Board and layer previews** - realistic top / bottom render of the board and a preview of every layer, showing
   exactly what gets exposed.
-- **Positive and negative photoresist** — exposes the background or the tracks, including dry film.
-- **Holes as on the board** — all drill files (plated, non plated, vias) are cut out of the copper and soldermask.
-- **Drill guides** — a 0.1 mm copper ring marks holes in bare areas (mounting holes) so they can be drilled.
-- **Board outline** — drawn into the copper for cutting the board out.
-- **Free placement** — any corner or the center of the screen, with an offset in mm.
-- **Flips per board side** — horizontal / vertical, right in the layer list.
-- **90° rotation** — when the board only fits the other way round; the app tells you when it does.
-- **Several copies** — up to a 3 × 3 matrix of boards on one exposure, with an adjustable gap.
+- **Positive and negative photoresist** - exposes the background or the tracks, including dry film.
+- **Holes as on the board** - all drill files (plated, non plated, vias) are cut out of the copper and solder-mask.
+- **Drill guides** - a 0.1 mm copper ring marks holes in bare areas (mounting holes) so they can be drilled.
+- **Board outline** - drawn into the copper for cutting the board out.
+- **Free placement** - any corner or the center of the screen, with an offset in mm.
+- **Flips per board side** - horizontal/vertical, right in the layer list.
+- **90° rotation** - when the board only fits the other way round; the app tells you when it does.
+- **Several copies** - up to a 3 × 3 matrix of boards on one exposure, with an adjustable gap.
 
 ## Latest Version
 
