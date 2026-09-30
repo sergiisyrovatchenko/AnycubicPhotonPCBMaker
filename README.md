@@ -19,7 +19,7 @@ with support for **Photon Mono 4 Ultra** and **Photon Mono 4**.
 - **Drill guides** - a 0.1 mm copper ring marks holes in bare areas (mounting holes) so they can be drilled.
 - **Board outline** - drawn into the copper for cutting the board out.
 - **Free placement** - any corner or the center of the screen, with an offset in mm.
-- **Flips per board side** - horizontal/vertical, right in the layer list.
+- **Flips per board side** - horizontal / vertical, right in the layer list.
 - **90° rotation** - when the board only fits the other way round; the app tells you when it does.
 - **Several copies** - up to a 3 × 3 matrix of boards on one exposure, with an adjustable gap.
 
